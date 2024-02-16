@@ -11,4 +11,6 @@ Some of the limitations or tasks I could not complete in the below code:
 5. **For Task 12:** I used the F1 score(%) as the evaluation metric which is token overlap between the predicted answer and the reference answer.</br>
    **Pitfall** of using F1 score: F1 score is sensitive to exact matches between predicted and reference answers. If the model provides an answer that is semantically correct but not exactly matched with the reference answer, the F1 score will penalize it.
 
-6. Did not create a separate conda environment for the code to be portable. Directly used the Google Colab notebook which provides pre-installed packages like hugging-face, pytorch, etc.
+**Note**: The final Task 12 does not show the F1 score as output since my freely available Google Colab runtime was over and the notebook was disconnected. But when I ran the same code for just 100 samples in the validation set it gave around 75% of F1 score. This will be just the estimate but it provides that the code works.
+
+7. Did not create a separate conda environment for the code to be portable. Directly used the Google Colab notebook which provides pre-installed packages like hugging-face, pytorch, etc.
